@@ -30,7 +30,7 @@ section {
     align-items: center;
 }
 
-.nav-container {
+nav {
     position: fixed;
     width: 100px;
     height: 100vh;
@@ -44,11 +44,20 @@ ul {
 
 .nav-item {
     text-decoration: none;
-    cursor: pointer;
 }
 
 a {
     color: var(--on_primary);
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Querry selectors */
+
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        width: 100vw;
+        height: 80px;
+        top: 0;
+    }
 }

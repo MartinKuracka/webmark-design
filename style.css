@@ -52,6 +52,37 @@ a {
     cursor: pointer;
 }
 
+/* Home section */
+.home-container {
+    width: 100%;
+    height: 100%;
+}
+
+.header-wrapper {
+    margin: 20px auto;
+    width: 70%;
+    height: 100%;
+}
+
+.header-img {
+    position: absolute;
+    
+
+}
+
+/* Intro section */
+.intro-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-img {
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+
 /* Querry selectors */
 
 @media only screen and (max-width: 600px) {

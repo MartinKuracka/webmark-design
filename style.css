@@ -31,12 +31,16 @@ section {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     position: fixed;
     width: 100px;
     height: 100vh;
     background-color: var(--primary_color);
     right: 0;
     z-index: 2;
+
 }
 
 .logo_svg {
@@ -49,14 +53,25 @@ ul {
     list-style: none;
 }
 
-.nav-item {
+.nav-items {
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     text-decoration: none;
+    /* writing-mode: vertical-rl;     */
+}
+
+li {
+    transform: rotate(30deg);
+    padding-top: 50px;
 }
 
 a {
     color: var(--on_primary);
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 /* Home section */

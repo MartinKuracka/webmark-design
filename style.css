@@ -39,6 +39,12 @@ nav {
     z-index: 2;
 }
 
+.logo_svg {
+    position: absolute;
+    left: 12%;
+    top: 20px;
+}
+
 ul {
     list-style: none;
 }
@@ -54,9 +60,43 @@ a {
 }
 
 /* Home section */
-.home-container {
+
+.section-container {
+    position: relative;
     width: 100%;
     height: 100%;
+}
+
+/* SVG classes */
+
+.header-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(338/1080*100%);
+    left: 15%;
+    top: 100px;    
+    border-left: 1px solid #000000;
+}
+
+.header-2 {
+    position: absolute;
+    width: calc(1520/1920*100%);
+    height: 0px;
+    left: calc(200/1920*100%);
+    top: calc(885/1080*100%);
+
+
+    border-top: 1px solid #000000;
+    /* transform: rotate(-90deg); */
+}
+
+.header-3 {
+    position: absolute;
+    width: 0;
+    height: calc(1511/1920*100%);
+    top: calc(119/1080*100%);
+    left: calc(1620/1920*100%);
+    border-left: 1px solid #000000;
 }
 
 .header-wrapper {
@@ -75,10 +115,42 @@ a {
 }
 
 /* Intro section */
-.intro-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
+/* SVG clases */
+
+.intro-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(349/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(-80/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.intro-2 {
+    position: absolute;
+    width: calc(1520/1920*100%);
+    height: 0px;
+    left: calc(200/1920*100%);
+    top: calc(165/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+.intro-3 {
+    position: absolute;
+    width: 0px;
+    height: calc(636/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(444/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.intro-4 {
+    position: absolute;
+    width: 0px;
+    height: calc(551/1080*100%);
+    left: calc(1620/1920*100%);
+    top: calc(104/1080*100%);
+    border-left: 1px solid #000000;
 }
 
 .intro-img {
@@ -86,6 +158,125 @@ a {
     left: 0;
     width: 50%;
     top: 20%;
+}
+
+/* Works section */
+/* SVG classes */
+
+.works-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(930/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(80/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.works-2 {
+    position: absolute;
+    width: calc(1520/1920*100%);
+    height: 0px;
+    left: calc(200/1920*100%);
+    top: calc(900/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+/* About section */
+/* SVG classes */
+.about-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(150/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(80/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.about-2 {
+    position: absolute;
+    width: calc(280/1920*100%);
+    height: 0px;
+    left: calc(200/1920*100%);
+    top: calc(150/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+.about-3 {
+    position: absolute;
+    width: calc(480/1920*100%);
+    height: 0px;
+    left: calc(1230/1920*100%);
+    top: calc(150/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+.about-4 {
+    position: absolute;
+    width: 0px;
+    height: calc(450/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(500/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.about-5 {
+    position: absolute;
+    width: 0px;
+    height: calc(550/1080*100%);
+    left: calc(1620/1920*100%);
+    top: calc(80/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+/* Coop Setion */
+/* SVG classes */
+
+.coop-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(550/1080*100%);
+    left: calc(300/1920*100%);
+    top: calc(400/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.coop-2 {
+    position: absolute;
+    width: calc(1200/1920*100%);
+    height: 0px;
+    left: calc(200/1920*100%);
+    top: calc(900/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+.coop-3 {
+    position: absolute;
+    width: calc(100/1920*100%);
+    height: 0px;
+    left: calc(1700/1920*100%);
+    top: calc(900/1080*100%);
+    border-top: 1px solid #000000;
+}
+
+/* Contact section */
+/* Line classes */
+
+.contact-1 {
+    position: absolute;
+    width: 0px;
+    height: calc(250/1080*100%);
+    left: calc(1620/1920*100%);
+    top: calc(50/1080*100%);
+    border-left: 1px solid #000000;
+}
+
+.contact-2 {
+    position: absolute;
+    width: calc(900/1920*100%);
+    height: 0px;
+    left: calc(800/1920*100%);
+    top: calc(100/1080*100%);
+    border-top: 1px solid #000000;
 }
 
 /* Querry selectors */
